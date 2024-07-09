@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int a[3][3],t[3][3];
@@ -25,6 +26,6 @@ int main()
     printf("\n");
     }
 
-//getch();
-return 0;
+getch();
+//return 0;
 }

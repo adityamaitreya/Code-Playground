@@ -20,7 +20,7 @@ void main()
     getch();
 }
 
-// Call By values
+// Call By reference
 
 // #include<stdio.h>
 // #include<conio.h>
