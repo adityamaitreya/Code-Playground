@@ -11,10 +11,10 @@ int fib(int n)
 }
 void main()
 {
-    int NUM,i;
+    int n,i;
     printf("Enter the number of terms: ");
-    scanf("%d",&NUM);
-    for(i=1;i<=NUM;i++)
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     printf("%d ",fib(i));
     getch();
 }
