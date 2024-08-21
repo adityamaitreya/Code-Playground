@@ -10,7 +10,7 @@ int fac(int n)
 void main()
 {
     int n,f;
-    printf("Enter ant no.: ");
+    printf("Enter an no.: ");
     scanf("%d",&n);
     f=fac(n);
     printf("Factorial %d",f);

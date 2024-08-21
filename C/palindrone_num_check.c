@@ -21,7 +21,5 @@ void main()
         else{
             printf("not a palindrone num");
         }
-        
-    
     getch();
 }

@@ -10,6 +10,7 @@ void main()
         {
             flag=1;
             break;
+            
         }
     }
         if(flag==1)

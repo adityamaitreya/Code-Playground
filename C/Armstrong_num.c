@@ -1,27 +1,34 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
+
 void main()
 {
-    int n,r,sum=0,count=0;
-    printf("enter number\n");scanf("%d",&n);
+    int n, r, sum = 0, count = 0, temp;
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    temp = n;
     
-    for(int i=n;i!=0;i=i/10){
-       count++;
-       }
-    for(int i=n;i!=0;i=i/10){
-        
-        
-        sum=sum+pow(r,count);
+    // Counting the number of digits
+    while (temp != 0) {
+        count++;
+        temp = temp / 10;
     }
     
-        if(sum==n){
-            printf("it is armstrong num");
-        }
-        else{
-            printf("not a armstrong num");
-        }
-        
+    temp = n;
     
-    getch();
+    // Calculating the sum of the powers of its digits
+    while (temp != 0) {
+        r = temp % 10;
+        sum += pow(r, count);
+        temp = temp / 10;
+    }
+    
+    // Checking if the sum is equal to the original number
+    if (sum == n) {
+        printf("It is an Armstrong number.\n");
+    } else {
+        printf("Not an Armstrong number.\n");
+    }
 }
+

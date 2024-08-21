@@ -14,23 +14,24 @@ int g(a,b,c)
 {
 //int grt;
 ///using conditional operator and logical operator
- 
- //grt=(a>b&&b>c?a:(b>c?b:c));
- //return grt;
+int grt; 
+ grt=(a>b&&b>c?a:(b>c?b:c));
+ return grt;
 
-///using conditional operator and without logical operator 
+//using conditional operator and without logical operator 
+//  int grt;
 //  grt=(a>b?(a>c?a:c):(b>c?b:c));
 //  return grt;
 
 ///using conditional statement
 
- if (a>b && b>c)
-    return a;
- else
- {
-    if(b>c)
-    return b;
-    else
-    return c;
- }
+//  if (a>b && b>c)
+//     return a;
+//  else
+//  {
+//     if(b>c)
+//     return b;
+//     else
+//     return c;
+//  }
 }
