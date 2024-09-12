@@ -30,3 +30,22 @@
 # lis=["C","D","A","A","B","B","A"]
 # lis.sort(reverse=True)
 # print(lis)
+
+# set={"python","java","c++","python","js","java","python","java","c++","c"}
+# print(set)
+# print(len(set))
+
+# marks = {}
+# marks["eng"]=66
+# marks["phy"]=69
+# marks["maths"]=42
+# or we can use update
+# marks.update({"eng":66})
+# marks.update({"phy":69,"maths":42})
+# print(marks)
+
+
+# value={9,9.0}
+# value={9,'9.0'}
+# value={('int',9),('float',9.0)}
+# print(value)
