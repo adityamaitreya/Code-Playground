@@ -15,6 +15,7 @@ void main()
         temp = temp / 10;
     }
     
+    
     temp = n;
     
     // Calculating the sum of the powers of its digits
