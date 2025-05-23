@@ -1,7 +1,7 @@
 a=int(input("Ente 1st no: "))
 b=int(input("Ente 2nd no: "))
 cal=input("Enter operation(+ , _ , * , /, %) --> ")
-print("Answer: ")
+print("Answer is: ",end=" ")
 match cal: 
     case '+':
         print(a+b)
